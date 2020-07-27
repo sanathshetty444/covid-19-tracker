@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom'
+
 import {fetchData} from './api';
 // import Cards from './components/Cards/Cards';
 import styles from './App.module.css'
