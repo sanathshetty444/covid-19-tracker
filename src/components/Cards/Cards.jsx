@@ -8,7 +8,7 @@ import cx from 'classnames'
 
 
 const Cards=function({data:{confirmed,recovered,deaths,lastUpdate}}){
-    if(confirmed===undefined){
+    if(!confirmed){
         return "loading";
     }
     
